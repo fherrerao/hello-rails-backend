@@ -1,24 +1,84 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/static/v1?label=BY&message=Fernando&color=blue)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Full-stack-app
 
-Things you may want to cover:
+> This app is created to learn how to use a backend API with Ruby on Rails and a front-end app built with React and Redux.
+
+Link to the React-app [here](https://github.com/fherrerao/hello-react-front-end).
+
+## Built With
+
+- Ruby
+- Ruby on Rails
+- RSpec, PostgreSQL
+- React
+- Redux
+
+## Configuration
+
+To use this project you first need to have installed the following:
+
++ Node.js
++ Ruby
++ PostgreSQL
++ Rails
 
 * Ruby version
 
-* System dependencies
+The version of ruby that is needed for this project is 
 
-* Configuration
++ 3.1.1p18
 
-* Database creation
+Once you have installed them, you need to use the following command to clone the repository:
 
-* Database initialization
+```
+git clone https://github.com/fherrerao/hello-rails-backend.git
+```
 
-* How to run the test suite
+### Database creation
 
-* Services (job queues, cache servers, search engines, etc.)
+Next, use this command to create the databases:
+```
+rake db:create
+```
 
-* Deployment instructions
+## Usage
 
-* ...
+Finally, use the following command to initialize the live server:
+
+```
+./div/dev
+```
+
+`Note:` 
+If you need root permissions execute:
+
+```
+chmod u+x bin/dev
+```
+
+And then install the node dependencies with: 
+```
+npm install
+```
+
+## Author
+
+👤 **Fernando Herrera**
+
+- GitHub: [@fherrerao](https://github.com/fherrerao);
+- LinkedIn: [Fernando Herrera](https://www.linkedin.com/in/fherrerao/);
+- Twitter: [Fernando Herrera](https://twitter.com/fherrera0206);
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Thanks to my family for their suport.
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
