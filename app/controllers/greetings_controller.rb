@@ -3,6 +3,6 @@ class GreetingsController < ApplicationController
     @greetings = Greeting.all.sample
     render json: {
       message: @greetings.message
-    }      
+    }
   end
 end
